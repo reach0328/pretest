@@ -58,7 +58,6 @@ public class poker {
 		} else {
 			List<Integer> o1= sOrder(player1);
 			List<Integer> o2= sOrder(player2);
-			System.out.println(o1.size()+"  "+o2.size());
 			for(int i=o1.size()-1;i>=0;i--) {
 				if(o1.get(i)>o2.get(i)){
 					System.out.println("player1 WIN");
